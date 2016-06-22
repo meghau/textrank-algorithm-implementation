@@ -17,7 +17,8 @@ import org.jgrapht.graph.*;
 
 public class TextRank {
     public static void main(String args[]) {
-    	String[] documents = {"Document 1 text over here", "Document 2 text over here"};
+    	String[] documents = {"I seem to have endless problems with one drive.  I wonder if anyone else does.......Often when I add files to one drive, on other computers those files appear during update and then emmedietely are moved into the trash bin. Now I notice that One Drive just does not update with ne files at all!",
+    			"when I sign in to my Microsoft account it appears problem which contain: Microsoft account requires JavaScript to sign in. this web browser either does not support JavaScript, or scripts are being blocked> OT: Microsoft On Drive Dont work"};
 		
     	StanfordLemmatizer slem = new StanfordLemmatizer();
     	List<ArrayList<String>> lemmatizedTickets = new ArrayList<ArrayList<String>>();
